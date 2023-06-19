@@ -1,0 +1,66 @@
+<!-- This Document creates a form to register names for a marathon!! This is my first structred code after a while Wooohooo -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Sign Up!</title>
+</head>
+
+<body>
+    <form action="/bhaaago">
+
+        <h1>Race Registration!</h1>
+
+        <label for="fristname">First Name</label>
+        <input type="text" name="firstname" id="fristname" placeholder="Enter your first name" required>
+
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Enter your last name" required>
+
+        <p>
+            <label for="type">Select a Race:</label>
+
+            <br>
+            <input type="radio" name="race" id="5k" value="fivek">
+            <label for="fivek">Fun Run 5k</label>
+
+
+            <br>
+
+            <input type="radio" name="race" id="half" value="halfmarathon">
+            <label for="half">Half Marathon</label>
+
+            <br>
+
+            <input type="radio" name="race" id="full" value="fullmarathon">
+            <label for="full">Full Marathon</label>
+
+        </p>
+        <div>
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email" placeholder="Enter your Email" required>
+
+            <label for="Pass">Password</label>
+            <input type="password" name="Password" id="Pass" placeholder="Enter your Password" required>
+        </div>
+
+        <div>
+            <label for="agegroup">Select Age Group:</label>
+
+            <select name="age" id="agegroup">
+                <option value="Under18">under 18</option>
+                <option value="18-30">18-30</option>
+                <option value="31-50">31-50</option>
+                <option value="50+">50+</option>
+            </select>
+        </div>
+
+        <button>Register!</button>
+
+    </form>
+</body>
+
+</html>
